@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import 'center_cut_item.dart';
 import 'cut_corner.dart';
 
 void main() {
@@ -17,7 +18,8 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      // home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      home: const CenterCutItem(),
     );
   }
 }
